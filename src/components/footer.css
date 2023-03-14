@@ -1,0 +1,32 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.footer-border {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border: 10px rgb(189, 158, 79) solid;
+    border-radius: 5px;
+}
+
+.footer-inner-border {
+content: " ";
+width: calc(100% - 10px);
+height: calc(100% - 10px);
+  border: 5px white solid;
+}
+
+.dialogue {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40,80,100);
+    color: white;
+    font-family: 'pokemon';
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
