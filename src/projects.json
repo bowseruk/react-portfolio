@@ -1,0 +1,272 @@
+[
+    {
+        "id": 0,
+        "name": "CSS Cheatsheet",
+        "description": "A CSS Cheatsheet made using HTML and CSS.",
+        "github": "https://github.com/bowseruk/css-cheatsheet",
+        "site": "https://bowseruk.github.io/css-cheatsheet/",
+        "image": "https://github.com/bowseruk/css-cheatsheet/raw/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS"]
+    },
+    {
+        "id": 1,
+        "name": "Landing Page",
+        "description": "A generic landing page.",
+        "github": "https://github.com/bowseruk/generic-landing-page",
+        "site": "https://bowseruk.github.io/generic-landing-page/",
+        "image": "https://raw.githubusercontent.com/bowseruk/generic-landing-page/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS"]
+    },
+    {
+        "id": 2,
+        "name": "Travel California",
+        "description": "A website created to match a wireframe.",
+        "github": "https://github.com/bowseruk/travel-california",
+        "site": "https://bowseruk.github.io/travel-california/",
+        "image": "https://raw.githubusercontent.com/bowseruk/travel-california/main/images/screenshot.png",
+        "skills": ["HTML", "CSS"]
+    },
+    {
+        "id": 3,
+        "name": "Zen Garden",
+        "description": "A CSS demo using CSS Zen Garden.",
+        "github": "https://github.com/bowseruk/zen-garden",
+        "site": "https://bowseruk.github.io/zen-garden/",
+        "image": "https://raw.githubusercontent.com/bowseruk/zen-garden/main/assets/images/screenshot.png",
+        "skills": ["CSS"]       
+    },
+    {
+        "id": 4,
+        "name": "Pre-Work Study Guide",
+        "description": "A website created to match a wireframe.",
+        "github": "https://github.com/bowseruk/prework-study-guide",
+        "site": "https://bowseruk.github.io/prework-study-guide/",
+        "image": "",
+        "skills": ["HTML", "CSS", "JavaScript"]       
+    },
+    {
+        "id": 5,
+        "name": "CSS Portfolio",
+        "description": "A Portfolio website created using HTML and vanilla CSS.",
+        "github": "https://github.com/bowseruk/css-portfolio",
+        "site": "https://bowseruk.github.io/css-portfolio/",
+        "image": "https://raw.githubusercontent.com/bowseruk/css-portfolio/main/assets/images/Screenshot.png",
+        "skills": ["HTML", "CSS"]   
+    },
+    {
+        "id": 6,
+        "name": "CSS Portfolio",
+        "description": "A update of a website to improve code readablity and improve accessability.",
+        "github": "https://github.com/bowseruk/horiseon",
+        "site": "https://bowseruk.github.io/horiseon/",
+        "image": "https://raw.githubusercontent.com/bowseruk/horiseon/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS", "Accessibility"]   
+    },
+    {
+        "id": 6,
+        "name": "CSS Portfolio",
+        "description": "A Portfolio website created using HTML, Bootstrap and CSS.",
+        "github": "https://github.com/bowseruk/bootstrap-portfolio",
+        "site": "https://bowseruk.github.io/bootstrap-portfolio/",
+        "image": "https://github.com/bowseruk/bootstrap-portfolio/blob/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS", "Bootstrap"]   
+    },
+    {
+        "id": 7,
+        "name": "Player Luxury Tax Calculator",
+        "description": "A Page demonstrating calculating a tax using javascript.",
+        "github": "https://github.com/bowseruk/player-luxury-calculator",
+        "site": "https://bowseruk.github.io/player-luxury-calculator/",
+        "image": "https://raw.githubusercontent.com/bowseruk/player-luxury-calculator/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS", "Bootstrap", "JavaScript"]  
+    },
+    {
+        "id": 8,
+        "name": "Etch-A-Sketch",
+        "description": "A Page based on the etch-a-sketch toy.",
+        "github": "https://github.com/bowseruk/etch-a-scetch",
+        "site": "https://bowseruk.github.io/etch-a-scetch/",
+        "image": "",
+        "skills": ["HTML", "CSS", "JavaScript"]  
+    },
+    {
+        "id": 9,
+        "name": "Odin Landing Page",
+        "description": "A Page created to match a starting image.",
+        "github": "https://github.com/bowseruk/odin-landing-page",
+        "site": "https://bowseruk.github.io/odin-landing-page/",
+        "image": "https://raw.githubusercontent.com/bowseruk/odin-landing-page/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS"] 
+    },
+    {
+        "id": 10,
+        "name": "Web-based Calculator",
+        "description": "",
+        "github": "https://github.com/bowseruk/web-based-calculator",
+        "site": "",
+        "image": "",
+        "skills": ["HTML", "CSS", "JavaScript"] 
+    },
+    {
+        "id": 11,
+        "name": "Odin Recipes",
+        "description": "",
+        "github": "https://github.com/bowseruk/odin-recipes",
+        "site": "https://bowseruk.github.io/odin-recipes/",
+        "image": "https://raw.githubusercontent.com/bowseruk/odin-recipes/main/assests/images/Screenshot.png",
+        "skills": ["HTML", "CSS"] 
+    },
+    {
+        "id": 11,
+        "name": "Black Jack",
+        "description": "A web based Black Jack game.",
+        "github": "https://bowseruk.github.io/black-jack/",
+        "site": "https://bowseruk.github.io/black-jack/",
+        "image": "",
+        "skills": ["HTML", "CSS", "JavaScript"] 
+    },
+    {
+        "id": 12,
+        "name": "Rock, Paper, Scissors",
+        "description": "A web based Rock, Paper, Scissors game.",
+        "github": "https://github.com/bowseruk/rock-paper-scissors",
+        "site": "https://bowseruk.github.io/rock-paper-scissors/",
+        "image": "https://raw.githubusercontent.com/bowseruk/rock-paper-scissors/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS", "JavaScript", "Bootstrap"] 
+    },
+    {
+        "id": 13,
+        "name": "Word Guess Game",
+        "description": "A web based Word Guessing Game game.",
+        "github": "https://github.com/bowseruk/word-guess-game",
+        "site": "https://bowseruk.github.io/word-guess-game/",
+        "image": "",
+        "skills": ["HTML", "CSS", "JavaScript", "Bootstrap"] 
+    },
+    {
+        "id": 14,
+        "name": "Tick Tack Toe",
+        "description": "A web based Tick Tack Toe game with AI.",
+        "github": "https://github.com/bowseruk/javascript-tick-tack-toe",
+        "site": "https://bowseruk.github.io/javascript-tick-tack-toe/",
+        "image": "",
+        "skills": ["HTML", "CSS", "JavaScript", "AI"] 
+    },
+    {
+        "id": 15,
+        "name": "Project Tracker",
+        "description": "A project tracker tool.",
+        "github": "https://github.com/bowseruk/javascript-project-tracker",
+        "site": "https://bowseruk.github.io/javascript-project-tracker/",
+        "image": "",
+        "skills": ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap"] 
+    },
+    {
+        "id": 16,
+        "name": "Console Finances",
+        "description": "A javascript app to calculate finance information from the data given.",
+        "github": "https://github.com/bowseruk/console-finances",
+        "site": "https://bowseruk.github.io/console-finances/",
+        "image": "https://raw.githubusercontent.com/bowseruk/console-finances/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap"] 
+    },
+    {
+        "id": 16,
+        "name": "Console Finances",
+        "description": "A javascript app to calculate finance information from the data given.",
+        "github": "https://github.com/bowseruk/console-finances",
+        "site": "https://bowseruk.github.io/console-finances/",
+        "image": "https://raw.githubusercontent.com/bowseruk/console-finances/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap"] 
+    },
+    {
+        "id": 17,
+        "name": "Password Generator",
+        "description": "A javascript app to create a password.",
+        "github": "https://github.com/bowseruk/web-password-generator",
+        "site": "https://bowseruk.github.io/web-password-generator/",
+        "image": "https://raw.githubusercontent.com/bowseruk/web-password-generator/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS", "JavaScript"] 
+    },
+    {
+        "id": 18,
+        "name": "Work Day Scheduler",
+        "description": "A javascript app to schedule the day.",
+        "github": "https://github.com/bowseruk/work-day-scheduler",
+        "site": "https://bowseruk.github.io/work-day-scheduler/",
+        "image": "https://raw.githubusercontent.com/bowseruk/work-day-scheduler/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS", "JavaScript", "JQuery", "DayJS"] 
+    },
+    {
+        "id": 19,
+        "name": "Timed Quiz",
+        "description": "A javascript quiz app.",
+        "github": "https://github.com/bowseruk/javascript-timed-quiz",
+        "site": "https://bowseruk.github.io/javascript-timed-quiz/",
+        "image": "https://raw.githubusercontent.com/bowseruk/javascript-timed-quiz/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS", "JavaScript"] 
+    },
+    {
+        "id": 20,
+        "name": "New York Times Article Search",
+        "description": "A search page for the New York Times.",
+        "github": "https://github.com/bowseruk/new-york-times-article-search",
+        "site": "https://bowseruk.github.io/new-york-times-article-search/",
+        "image": "https://github.com/bowseruk/new-york-times-article-search/blob/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS", "JavaScript", "JQuery", "API"] 
+    },
+    {
+        "id": 21,
+        "name": "Weather Dashboard",
+        "description": "A weather dashboard, that gets information from an API.",
+        "github": "https://github.com/bowseruk/weather-dashboard",
+        "site": "https://bowseruk.github.io/weather-dashboard/",
+        "image": "https://raw.githubusercontent.com/bowseruk/weather-dashboard/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS", "JavaScript", "JQuery", "API"] 
+    },
+    {
+        "id": 22,
+        "name": "Screen Test",
+        "description": "A Movie Themed Quiz.",
+        "github": "https://github.com/bowseruk/screen-test",
+        "site": "https://bowseruk.github.io/screen-test/",
+        "image": "https://github.com/bowseruk/screen-test/blob/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS", "JavaScript", "JQuery", "API", "Game"] 
+    },
+    {
+        "id": 23,
+        "name": "Screen Test",
+        "description": "A Movie Themed Quiz.",
+        "github": "https://github.com/bowseruk/screen-test",
+        "site": "https://bowseruk.github.io/screen-test/",
+        "image": "https://github.com/bowseruk/screen-test/blob/main/assets/images/screenshot.png",
+        "skills": ["HTML", "CSS", "JavaScript", "JQuery", "API", "Game"] 
+    },
+    {
+        "id": 24,
+        "name": "Portfolio Page Generator",
+        "description": "An App to Generator a HTML Portfolio Page",
+        "github": "https://github.com/bowseruk/portforlio-page-generator-nodejs",
+        "site": "",
+        "image": "",
+        "skills": ["JavaScript"] 
+    },
+    {
+        "id": 25,
+        "name": "Readme Generator",
+        "description": "An App to Generator a Professional Readme.",
+        "github": "https://github.com/bowseruk/readme-generator-nodejs",
+        "site": "https://bowseruk.github.io/readme-generator-nodejs/",
+        "image": "",
+        "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "Node.js"] 
+    },
+    {
+        "id": 26,
+        "name": "Team Profile Generator",
+        "description": "An App to Generator a Team HTML Page.",
+        "github": "hhttps://github.com/bowseruk/team-profile-generator",
+        "site": "",
+        "image": "",
+        "skills": ["JavaScript", "Node.js"] 
+    }
+]
