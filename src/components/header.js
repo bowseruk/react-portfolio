@@ -9,12 +9,6 @@ class Header extends Component {
     render() {
         return <header className="header">
             <div className="header-border">
-                <div className="header-inner-border">
-                    <nav className="navbar dialogue">
-                        Test Text
-
-                    </nav>
-                </div>
             </div>
         </header>
     }       

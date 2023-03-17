@@ -7,8 +7,11 @@ function Layout(props) {
         <div>
             <div className="footer-spacer">
                 <Header />
-                <main>
-                    {props.children}
+                <main class="main">
+                    <div>
+                        {props.children}
+                    </div>
+                    
                 </main>
             </div>
             <Footer />
