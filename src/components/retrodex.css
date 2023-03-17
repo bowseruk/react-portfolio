@@ -1,0 +1,37 @@
+.retrodex {
+    background: red;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.retrodex-screen {
+    background: black;
+    color: white;
+    font-family: retro;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+.retrodex-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    min-height: 25%;
+}
+
+.retrodex-top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 50%;
+}

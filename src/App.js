@@ -1,6 +1,7 @@
 import './App.css';
 import Layout from './components/layout';
 import Home from './components/pages/home.js';
+import About from './components/pages/about.js';
 import Projects from './components/pages/projects.js';
 import Contact from './components/pages/contact.js';
 import {
@@ -11,7 +12,11 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout><Home /></Layout>,
+    element: <Home />,
+  },
+  {
+    path: "about",
+    element: <About />,
   },
   {
     path: "contact",
@@ -19,7 +24,7 @@ const router = createBrowserRouter([
   },
   {
     path: "projects",
-    element: <Layout><Projects /></Layout>,
+    element: <Projects />,
     children: [
       {
         path: ":id",

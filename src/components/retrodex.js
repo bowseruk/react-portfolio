@@ -9,39 +9,33 @@ class RetroDex extends Component {
             message: ""
         };
     }
+    renderSkills() {
+        if (this.props.skills.length > 0) {
+            return <div><p>Demonstrating the following skills:</p><ul> 
+                {this.props.skills.map(element => <li key={element}>{element}</li>) }</ul></div>
+        }
+        return null;
+    }
     render() {
-        return <div className="home">
+        return <div className="retrodex">
+            <div className="retrodex-screen">
             <div className="retrodex-top">
+                
                 <div className="retrodex-top-left">
                     <img></img>
                 </div>
                 <div className="retrodex-top-right">
-                    <h2>Adam Bolsover</h2>
-                    <p>Web Developer</p>
+                    <h2>{this.props.name}</h2>
+                    <p>{this.props.type}</p>
                     <a>Github</a>
                     <a>LinkedIn</a>
                 </div>
             </div>
             <div className="retrodex-bottom">
-                <p>Adam Bolsover is a Web Development Master from Gainsborough</p>
-
+                <p>{this.props.description}</p>
+                {this.renderSkills()}
             </div>
-            <h2>Adam Bolsover</h2>
-            <p>Adam Bolsover is a Web Development Master from Gainsborough.</p>
-            <p>His special abilities include</p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Bootstrap</li>
-                <li>JQuery</li>
-                <li>React</li>
-            </ul>
-            <p>He can be found at:</p>
-            <ul>
-                <li>Github</li>
-                <li>LinkedIn</li>
-            </ul>
+            </div>
         </div>
     }
 }

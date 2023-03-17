@@ -1,9 +1,5 @@
-.footer-spacer {
-    height: calc(100vh - 200px);
-    width: 100vw;
-}
 /* This is the main display*/
-/* .main {
+.main {
     height: 100%;
     width: 100%;
     position: relative;
@@ -66,10 +62,36 @@
     bottom: 15px;
     right: 15px;
     z-index: 5;
-} */
+}
+
+.retrodex-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.retrodex-icon-body {
+    height: 40px;
+    width: 30px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.retrodex-icon-screen {
+    height: 35px;
+    width: 25px;
+    background: black;
+    color: white;
+    font-family: retro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* This is the grass theme background to the page */
-/* .grass-theme {
+.grass-theme {
     background: 
     linear-gradient(rgba(200, 220, 240, 0.4) 30%,
     rgb(220, 240, 220, 0.4)),
@@ -124,4 +146,4 @@
         rgb(220, 240, 220, 0.6) 98%,
         transparent 100%
     )
-} */
+}

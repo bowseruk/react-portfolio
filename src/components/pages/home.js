@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Layout from '../layout.js'
+import BattleScene from "../battleScene.js";
 import './home.css'
 
 
@@ -10,19 +12,7 @@ class Home extends Component {
         };
     }
     render() {
-        return <article className="home">
-            <h2>Adam Bolsover</h2>
-            <p>Adam Bolsover is a Web Development Master from Gainsborough.</p>
-            <p>His special abilities include</p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Bootstrap</li>
-                <li>JQuery</li>
-                <li>React</li>
-            </ul>
-    </article>
+        return <Layout><BattleScene name="Home"></BattleScene></Layout>
     }       
 }
 
