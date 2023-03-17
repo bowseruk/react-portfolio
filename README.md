@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This is my portfolio page created using React.
 
-### `npm start`
+The project had the following requirements:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- A navbar with links to the different pages.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- A clean and polished UI.
 
-### `npm test`
+- Projects are displayed using a common project moule.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- At least 6 projects displayed on the page.
 
-### `npm run build`
+- A home page with my a bio and a picture.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- A contact form.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- A header that is common across all the pages.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Table of Contents
 
-### `npm run eject`
+- [Description](#description)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Table of Contents](#table-of-contents)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Installation](#installation)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Usage](#usage)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Features](#features)
 
-## Learn More
+- [Contributing](#contributing)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Credits](#credits)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [License](#license)
 
-### Code Splitting
+- [Questions](#questions)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Installation
 
-### Analyzing the Bundle Size
+Either run the page from [the web link](https://bowseruk.github.io/react-portfolio/), or clone the repo. If you clone the repo you can npm start to run a development server. When development is complete you can run npm run build.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage
 
-### Making a Progressive Web App
+A screenshot of the project can be seen below:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Screenshot](./public/assests/images/screenshot.png)
 
-### Advanced Configuration
+To use this page, go to [the web link](https://bowseruk.github.io/react-portfolio/). Use the site on a modern version of chrome.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Features
 
-### Deployment
+This project has the following features:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- A single page website.
 
-### `npm run build` fails to minify
+- Built using React and React Router
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+
+Please send a message or raise an issue if you want to contribute. You may send a pull request, but only after making contact or raising an issue.
+
+## Tests
+
+There are currently no tests for this project.
+
+## Credits
+
+The following resources were important for this project.
+
+- [Readme Generator](https://github.com/bowseruk/readme-generator-nodejs) for generating the readme.
+
+- [React](https://react.dev/) was used as a frontend framework.
+
+- [React Router](https://reactrouter.com/en/main) was used to allow changing of pages.
+
+- The changes were checked with [W3C Validator](https://validator.w3.org/).
+
+- [W3School](https://www.w3schools.com/) was used as a reference for elements to use and good practice.
+
+- [MDN](https://developer.mozilla.org/en-US/) is a very comprehensive and useful resource.
+
+- [Stack Overflow](https://stackoverflow.com/) always seems to have the answer to a problem that occurs.
+
+- [Bootstrap](https://getbootstrap.com/) was used in this project using the documentation on their website.
+
+- [Font Awesome](https://fontawesome.com/) was used and the documentation referenced.
+
+- [Node.js](https://nodejs.org/) was used in the project, following documentation from their site.
+
+- [Jest.js](https://jestjs.io/) was used as a testing framework for the project, following documentation from their site.
+
+## License
+
+![MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+
+This full license used by the project is in the LICENSE file of the repo.
+
+## Questions
+
+Please contact me with any questions by:
+
+- Github Discussion: Add a discussion or raise an issue on this repo.
+
+- My Github Username is [BowserUK](https://github.com/bowseruk): Feel free to find more contact details or browse my other Repos.

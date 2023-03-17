@@ -268,5 +268,15 @@
         "site": "",
         "image": "",
         "skills": ["JavaScript", "Node.js"] 
+    },
+    {
+        "id": 27,
+        "name": "React Portfolio",
+        "description": "A Portfolio website created using HTML and vanilla CSS.",
+        "github": "https://github.com/bowseruk/react-portfolio",
+        "site": "",
+        "image": "",
+        "skills": ["JavaScript", "Node.js"] 
     }
+    
 ]
