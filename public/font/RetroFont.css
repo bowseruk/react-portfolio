@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'retro';
+    src: url('retro.woff2') format('woff2'),
+         url('retro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
