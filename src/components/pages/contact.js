@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Layout from "../layout";
 
 class Contact extends Component {
     constructor(props) {
@@ -8,9 +9,19 @@ class Contact extends Component {
         };
     }
     render() {
-        return <article className="contact">
-            <h2>Contact</h2>
-    </article>
+        return <Layout>
+            <div>
+                <div>
+                    <h2>Contact</h2>
+                    <form>
+                    <input />
+                    <input />
+                    <textarea />
+                    <button >Submit</button>
+                    </form>
+                </div>
+            </div>
+        </Layout>
     }       
 }
 

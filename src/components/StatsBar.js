@@ -5,20 +5,10 @@ class StatsBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: "Ash",
             level: 99,
             currentHP: 10,
             maxHP: 10
         };
-    }
-    setLevel(newLevel) {
-        this.setState({level: newLevel})
-    }
-    setName(newName) {
-        this.setState({name: newName})
-    }
-    setHP(newCurrentHP, newMaxHP) {
-        this.setState({currentHP: newCurrentHP, maxHP: newMaxHP})
     }
     render() {
         return <div className="stats-bar">
@@ -26,7 +16,7 @@ class StatsBar extends Component {
             <span className="stats-bar-name">{this.props.name}</span><span className="level">lvl. {this.state.level}</span>
             </div>
                 <div  className="stats-bar-bottom">
-                    <label>HP</label><progress className="hp" value={this.state.currentHP} max={this.state.maxHP} >{this.state.currentHP / this.state.maxHP}</progress>
+                    <label>HP<progress className="hp" value={this.state.currentHP} max={this.state.maxHP} >{this.state.currentHP / this.state.maxHP}</progress></label>
                 </div>
             </div>
     }       

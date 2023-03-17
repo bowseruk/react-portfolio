@@ -25,3 +25,12 @@
 .stats-bar > .stats-bar-bottom {
     justify-content: flex-end;
 }
+
+.stats-bar-bottom > label {
+    color: rgba(235, 200, 105, 1);
+    background: rgba(100, 115, 95, 1);
+    border-radius: 10px;
+    padding: 2px 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
