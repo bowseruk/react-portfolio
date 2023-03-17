@@ -1,0 +1,8 @@
+.home, .home > h2 {
+    text-align: center;
+}
+
+.home {
+    background: greenyellow;
+    border-radius: 5px;
+}

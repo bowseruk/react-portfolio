@@ -26,9 +26,23 @@ height: calc(100% - 10px);
     background-color: rgb(40,80,100);
     color: white;
     font-family: 'retro';
-    font-size: 3rem;
-    text-align: center;
-    display: flex;
+    font-size: 2rem;
+    /* text-align: center; */
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-option {
+    min-width: 100px;
 }

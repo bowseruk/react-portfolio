@@ -1,6 +1,7 @@
 import './App.css';
 import Layout from './components/layout';
 import Home from './components/pages/home.js'
+import Contact from './components/pages/contact.js'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -10,14 +11,35 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    // loader: rootLoader,
-    // children: [
-    //   {
-    //     path: "events/:id",
-    //     element: <Event />,
-    //     loader: eventLoader,
-    //   },
-    // ],
+    loader: async() => ({
+      home: await fetch('./components/pages/home.js')
+    }),
+    children:
+    [
+      {
+        path: "projects",
+        element: <Home></Home>,
+        loader: async() => ({
+          home: await fetch('./components/pages/home.js')
+        }),
+        children: [
+        {
+          path: ":id",
+          element: <Home></Home>,
+          loader: async() => ({
+            home: await fetch('./components/pages/home.js')
+          }),
+        }
+      ]
+      },
+      {
+        path: "contact",
+        element: <Contact />,
+        loader: async() => ({
+          contact: await fetch('./components/pages/contact.js')
+        }),
+      }
+    ]
   },
 ], {
   basename: "/react-portfolio/",
