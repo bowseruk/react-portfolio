@@ -1,7 +1,8 @@
 import './App.css';
 import Layout from './components/layout';
-import Home from './components/pages/home.js'
-import Contact from './components/pages/contact.js'
+import Home from './components/pages/home.js';
+import Projects from './components/pages/projects.js';
+import Contact from './components/pages/contact.js';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -10,37 +11,22 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
-    loader: async() => ({
-      home: await fetch('./components/pages/home.js')
-    }),
-    children:
-    [
+    element: <Layout><Home /></Layout>,
+  },
+  {
+    path: "contact",
+    element: <Layout><Contact /></Layout>,
+  },
+  {
+    path: "projects",
+    element: <Layout><Projects /></Layout>,
+    children: [
       {
-        path: "projects",
-        element: <Home></Home>,
-        loader: async() => ({
-          home: await fetch('./components/pages/home.js')
-        }),
-        children: [
-        {
-          path: ":id",
-          element: <Home></Home>,
-          loader: async() => ({
-            home: await fetch('./components/pages/home.js')
-          }),
-        }
-      ]
-      },
-      {
-        path: "contact",
-        element: <Contact />,
-        loader: async() => ({
-          contact: await fetch('./components/pages/contact.js')
-        }),
+        path: ":id",
+        element: <Layout><Projects></Projects></Layout>,
       }
     ]
-  },
+  }
 ], {
   basename: "/react-portfolio/",
 });
@@ -48,9 +34,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="App">
-      <Layout>
-        <RouterProvider router={router} />
-      </Layout>
+      <RouterProvider router={router} />
     </div>
   );
 }

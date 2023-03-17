@@ -15,10 +15,10 @@ class Footer extends Component {
             <div className="footer-inner-border">
                 <nav className="navbar dialogue">
                     <div className="footer-row">
-                        <span className="footer-option">Home</span><span className="footer-option">Projects</span>
+                        <span className="footer-option"><Link to="/" relative="path">Home</Link></span><span className="footer-option"><Link to="/projects">Projects</Link></span>
                     </div>
                     <div className="footer-row">
-                        <span className="footer-option">Contact</span><span className="footer-option">CV</span>
+                        <span className="footer-option"><Link to="/contact">Contact</Link></span><span className="footer-option"><a href="">CV</a></span>
                     </div>
                 </nav>
             </div>

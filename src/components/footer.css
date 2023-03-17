@@ -44,5 +44,11 @@ height: calc(100% - 10px);
 }
 
 .footer-option {
-    min-width: 100px;
+    min-width: calc(50vw - 30px);
+    text-align: center;
+    flex-grow: 1;
+}
+
+.footer-option > a {
+    color: white;
 }
