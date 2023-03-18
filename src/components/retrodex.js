@@ -9,6 +9,12 @@ class RetroDex extends Component {
             message: ""
         };
     }
+    renderSites() {
+        if (this.props.sites.length > 0) {
+            return this.props.sites.map(element => <a href={element[1]} key={element[0]}>{element[0]}</a>)
+        }
+        return null;
+    }
     renderSkills() {
         if (this.props.skills.length > 0) {
             return <div><p>Demonstrating the following skills:</p><ul> 
@@ -22,13 +28,13 @@ class RetroDex extends Component {
             <div className="retrodex-top">
                 
                 <div className="retrodex-top-left">
-                    <img src={this.props.img} alt="character" />
+                    <img src={this.props.image} alt="character" />
                 </div>
                 <div className="retrodex-top-right">
                     <h2>{this.props.name}</h2>
                     <p>{this.props.type}</p>
                     <a href={this.props.github}>Github</a>
-                    <a>LinkedIn</a>
+                    {this.renderSites()}
                 </div>
             </div>
             <div className="retrodex-bottom">
