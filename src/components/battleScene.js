@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import StatsBar from './StatsBar.js'
-import './battleScene.css'
+import StatsBar from './StatsBar.js';
+import './battleScene.css';
+import playerCharacter from './characters/retro-player.png';
 
 class BattleScene extends Component {
     constructor(props) {
@@ -14,6 +15,7 @@ class BattleScene extends Component {
                 <div className="stats-bar-opponent"><StatsBar name={this.props.name} /></div>
                 <div className="stats-bar-player"><StatsBar name="Adam" /></div>
                 <div className="player">
+                    <div className="player-window"><img alt="Player's sprite." src={playerCharacter} /></div>
                     <div className="ground"></div>
                 </div>
                 <div className="opponent">
@@ -21,13 +23,12 @@ class BattleScene extends Component {
                     <div className="ground"></div>
 
                 </div>
-                <Link to="/about">
+                
                     <div className="retrodex-icon">
                         <div className="retrodex-icon-body">
-                            <div className="retrodex-icon-screen">R</div>
+                            <div className="retrodex-icon-screen"><Link to="/about" className="retrodex-icon-link">R</Link></div>
                         </div>
                     </div>
-                </Link>
             </main>
         )
     }

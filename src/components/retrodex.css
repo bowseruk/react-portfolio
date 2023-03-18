@@ -20,6 +20,10 @@
     font-size: 0.5rem;
 }
 
+.retrodex-screen a {
+    color: white;
+}
+
 .retrodex-top {
     display: flex;
     flex-direction: row;
@@ -27,6 +31,10 @@
     padding: 10px;
     border-bottom: 2px solid white;
     min-height: 25%;
+}
+
+.retrodex-top-left img {
+    width: 80%
 }
 
 .retrodex-top-right {

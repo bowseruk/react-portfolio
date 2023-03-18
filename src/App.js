@@ -1,8 +1,8 @@
 import './App.css';
-import Layout from './components/layout';
 import Home from './components/pages/home.js';
 import About from './components/pages/about.js';
 import Projects from './components/pages/projects.js';
+import Project from './components/pages/project.js';
 import Contact from './components/pages/contact.js';
 import {
   createBrowserRouter,
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
   },
   {
     path: "contact",
-    element: <Layout><Contact /></Layout>,
+    element: <Contact />,
   },
   {
     path: "projects",
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: ":id",
-        element: <Layout><Projects></Projects></Layout>,
+        element: <Project />,
       }
     ]
   }

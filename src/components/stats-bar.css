@@ -31,6 +31,7 @@
     background: rgba(100, 115, 95, 1);
     border-radius: 10px;
     padding: 2px 5px;
+    margin: 0 5px;
     font-size: 0.8rem;
     font-weight: bold;
 }

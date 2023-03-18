@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import './footer.css'
 import { Link } from "react-router-dom";
+import './footer.css'
+import cv from "./files/Adam's_CV.pdf";
 
 class Footer extends Component {
     constructor(props) {
@@ -18,7 +19,7 @@ class Footer extends Component {
                         <span className="footer-option"><Link to="/" relative="path">Home</Link></span><span className="footer-option"><Link to="/projects">Projects</Link></span>
                     </div>
                     <div className="footer-row">
-                        <span className="footer-option"><Link to="/contact">Contact</Link></span><span className="footer-option"><a href="">CV</a></span>
+                        <span className="footer-option"><Link to="/contact">Contact</Link></span><span className="footer-option"><a href={cv}>CV</a></span>
                     </div>
                 </nav>
             </div>

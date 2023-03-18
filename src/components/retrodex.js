@@ -22,12 +22,12 @@ class RetroDex extends Component {
             <div className="retrodex-top">
                 
                 <div className="retrodex-top-left">
-                    <img></img>
+                    <img src={this.props.img} alt="character" />
                 </div>
                 <div className="retrodex-top-right">
                     <h2>{this.props.name}</h2>
                     <p>{this.props.type}</p>
-                    <a>Github</a>
+                    <a href={this.props.github}>Github</a>
                     <a>LinkedIn</a>
                 </div>
             </div>

@@ -13,31 +13,38 @@
     padding: 20px 20px 5vh 20px;
 }
 
-.player {
-    height: calc(90vh - 200px);
+.player, .opponent {
+    height: calc(80vh - 200px);
     width: 50vw;
-    position: absolute;
-    top: calc(10vh + 50px);
-    left: 5px;
     z-index: 2;
-}
-
-.opponent {
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: calc(90vh - 200px);
-    width: 50vw;
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    z-index: 2;
 }
 
-.opponent-window {
+.player {
+    top: calc(20vh + 50px);
+    left: 5px;
+}
+
+.opponent {
+    top: 50px;
+    right: 5px;
+}
+
+.player-window > img {
+    width: 60%;
+}
+
+.player-window, .opponent-window {
     position: relative;
     z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .ground {
@@ -88,6 +95,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.retrodex-icon-link {
+    color: white;
 }
 
 /* This is the grass theme background to the page */
