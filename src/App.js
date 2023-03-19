@@ -25,12 +25,10 @@ const router = createBrowserRouter([
   {
     path: "projects",
     element: <Projects />,
-    children: [
-      {
-        path: ":id",
-        element: <Project />,
-      }
-    ]
+  },
+  {
+    path: "project/:projectID",
+    element: <Project />,
   }
 ], {
   basename: "/react-portfolio/",

@@ -29,6 +29,7 @@ class RetroDex extends Component {
                 
                 <div className="retrodex-top-left">
                     <img src={this.props.image} alt="character" />
+                    <p>{this.props.id.toString().padStart(3,'0')}</p>
                 </div>
                 <div className="retrodex-top-right">
                     <h2>{this.props.name}</h2>

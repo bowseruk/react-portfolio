@@ -274,7 +274,7 @@
         "name": "React Portfolio",
         "description": "A Portfolio website created using HTML and vanilla CSS.",
         "github": "https://github.com/bowseruk/react-portfolio",
-        "site": "",
+        "site": "https://bowseruk.github.io/react-portfolio/",
         "image": "",
         "skills": ["JavaScript", "Node.js"] 
     }

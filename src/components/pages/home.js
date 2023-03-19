@@ -12,7 +12,7 @@ class Home extends Component {
         };
     }
     render() {
-        return <Layout><BattleScene name="Home"></BattleScene></Layout>
+        return <Layout><BattleScene name="Home" retrodexLink="/about"></BattleScene></Layout>
     }       
 }
 

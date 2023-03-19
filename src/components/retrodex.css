@@ -33,6 +33,13 @@
     min-height: 25%;
 }
 
+.retrodex-top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .retrodex-top-left img {
     width: 80%
 }

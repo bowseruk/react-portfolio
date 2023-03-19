@@ -5,11 +5,12 @@ import BattleScene from "../battleScene.js";
 class Projects extends Component {
     constructor(props) {
         super(props);
-        this.state = {      
+        this.state = {   
+            project: 0   
         };
     }
     render() {
-        return <Layout><BattleScene name="Project"><div><span>-</span><span>Character</span><span>+</span></div></BattleScene></Layout>
+        return <Layout><BattleScene name="Project" retrodexLink={`/project/${this.state.project}`}><div><span>-</span><span>Character</span><span>+</span></div></BattleScene></Layout>
     }      
 }
 

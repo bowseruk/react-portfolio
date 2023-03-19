@@ -26,7 +26,7 @@ class BattleScene extends Component {
                 
                     <div className="retrodex-icon">
                         <div className="retrodex-icon-body">
-                            <div className="retrodex-icon-screen"><Link to="/about" className="retrodex-icon-link">R</Link></div>
+                            <div className="retrodex-icon-screen"><Link to={this.props.retrodexLink} className="retrodex-icon-link">R</Link></div>
                         </div>
                     </div>
             </main>
