@@ -48,7 +48,9 @@
 }
 
 .retrodex-top-left img {
-    width: 80%
+    width: 80%;
+    max-height: 40vh;
+    overflow: hidden;
 }
 
 .retrodex-top-right {
