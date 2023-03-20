@@ -78,8 +78,8 @@
 }
 
 .retrodex-icon-body {
-    height: 40px;
-    width: 30px;
+    height: 8vh;
+    width: 6vw;
     background: red;
     display: flex;
     justify-content: center;
@@ -87,8 +87,8 @@
 }
 
 .retrodex-icon-screen {
-    height: 35px;
-    width: 25px;
+    height: 80%;
+    width: 80%;
     background: black;
     color: white;
     font-family: retro;

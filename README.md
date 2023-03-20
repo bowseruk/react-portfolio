@@ -52,7 +52,7 @@ A screenshot of the project can be seen below:
 
 ![Screenshot](./public/assests/images/screenshot.png)
 
-To use this page, go to [the web link](https://bowseruk.github.io/react-portfolio/). Use the site on a modern version of chrome.
+To use this page, go to [the web link](https://bowseruk.github.io/react-portfolio/). Use the site on a modern version of chrome. Browse to the page you want. On the home page, open the retrodex using the R logo in the top right corner to see my bio. On the project page, use the arrows to change the project number (as seen in the opponent's name in their status bar) and then click on the retrodex icon.
 
 ## Features
 
