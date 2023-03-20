@@ -203,7 +203,7 @@
         "description": "A search page for the New York Times.",
         "github": "https://github.com/bowseruk/new-york-times-article-search",
         "site": "https://bowseruk.github.io/new-york-times-article-search/",
-        "image": "https://github.com/bowseruk/new-york-times-article-search/blob/main/assets/images/screenshot.png",
+        "image": "https://raw.githubusercontent.com/bowseruk/new-york-times-article-search/main/assets/images/screenshot.png",
         "skills": ["HTML", "CSS", "JavaScript", "JQuery", "API"] 
     },
     {
@@ -221,7 +221,7 @@
         "description": "A Movie Themed Quiz.",
         "github": "https://github.com/bowseruk/screen-test",
         "site": "https://bowseruk.github.io/screen-test/",
-        "image": "https://github.com/bowseruk/screen-test/blob/main/assets/images/screenshot.png",
+        "image": "https://raw.githubusercontent.com/bowseruk/screen-test/main/assets/images/screenshot.png",
         "skills": ["HTML", "CSS", "JavaScript", "JQuery", "API", "Game"] 
     },
     {
@@ -239,14 +239,14 @@
         "description": "An App to Generator a Professional Readme.",
         "github": "https://github.com/bowseruk/readme-generator-nodejs",
         "site": "https://bowseruk.github.io/readme-generator-nodejs/",
-        "image": "",
+        "image": "https://github.com/bowseruk/readme-generator-nodejs/blob/main/assets/images/screenshot.png",
         "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "Node.js"] 
     },
     {
         "id": 27,
         "name": "Team Profile Generator",
         "description": "An App to Generator a Team HTML Page.",
-        "github": "hhttps://github.com/bowseruk/team-profile-generator",
+        "github": "https://github.com/bowseruk/team-profile-generator",
         "site": "",
         "image": "",
         "skills": ["JavaScript", "Node.js"] 
