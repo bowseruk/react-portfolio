@@ -9,3 +9,20 @@
 .char-with-options > img {
     width: 30vw
 }
+
+.arrow {
+    display: block;
+    width: 0px;
+    height: 0px;
+    border:30px solid transparent;
+  }
+
+  .arrow.arrow-left{
+    border-right-color: rgba(100,120,100,1);
+    border-left-width: 0px;
+  }
+
+  .arrow.arrow-right{
+    border-left-color: rgba(100,120,100,1);;
+    border-right-width: 0px;
+  }
