@@ -5,6 +5,7 @@ import RetroDex from '../retrodex.js'
 import projectsData from '../../projects.json'
 
 
+
 class Project extends Component {
     constructor(props) {
         super(props);

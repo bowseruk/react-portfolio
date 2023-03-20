@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Layout from '../layout.js'
 import BattleScene from "../battleScene.js";
 import './home.css'
+import opponent from '../characters/retro-home.png'
 
 
 class Home extends Component {
@@ -12,7 +13,7 @@ class Home extends Component {
         };
     }
     render() {
-        return <Layout><BattleScene name="Home" retrodexLink="/about"></BattleScene></Layout>
+        return <Layout><BattleScene name="Home" retrodexLink="/about"><img className="opponent-img" src={opponent} alt="opponent character" /></BattleScene></Layout>
     }       
 }
 
