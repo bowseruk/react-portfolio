@@ -41,7 +41,7 @@
         "description": "A website created to match a wireframe.",
         "github": "https://github.com/bowseruk/prework-study-guide",
         "site": "https://bowseruk.github.io/prework-study-guide/",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/bowseruk/prework-study-guide/main/assets/images/screenshot.png",
         "skills": ["HTML", "CSS", "JavaScript"]       
     },
     {
@@ -68,7 +68,7 @@
         "description": "A Portfolio website created using HTML, Bootstrap and CSS.",
         "github": "https://github.com/bowseruk/bootstrap-portfolio",
         "site": "https://bowseruk.github.io/bootstrap-portfolio/",
-        "image": "https://github.com/bowseruk/bootstrap-portfolio/blob/main/assets/images/screenshot.png",
+        "image": "https://raw.githubusercontent.com/bowseruk/bootstrap-portfolio/main/assets/images/screenshot.png",
         "skills": ["HTML", "CSS", "Bootstrap"]   
     },
     {
@@ -101,16 +101,16 @@
     {
         "id": 11,
         "name": "Web-based Calculator",
-        "description": "",
+        "description": "A web-based calculator that takes user input.",
         "github": "https://github.com/bowseruk/web-based-calculator",
-        "site": "",
-        "image": "",
+        "site": "https://bowseruk.github.io/web-based-calculator/",
+        "image": "https://raw.githubusercontent.com/bowseruk/web-based-calculator/main/assets/images/Screenshot.png",
         "skills": ["HTML", "CSS", "JavaScript"] 
     },
     {
         "id": 12,
         "name": "Odin Recipes",
-        "description": "",
+        "description": "Demonstrate some of my favourite recipes.",
         "github": "https://github.com/bowseruk/odin-recipes",
         "site": "https://bowseruk.github.io/odin-recipes/",
         "image": "https://raw.githubusercontent.com/bowseruk/odin-recipes/main/assests/images/Screenshot.png",
@@ -140,7 +140,7 @@
         "description": "A web based Word Guessing Game game.",
         "github": "https://github.com/bowseruk/word-guess-game",
         "site": "https://bowseruk.github.io/word-guess-game/",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/bowseruk/word-guess-game/main/assets/images/screenshot.png",
         "skills": ["HTML", "CSS", "JavaScript", "Bootstrap"] 
     },
     {

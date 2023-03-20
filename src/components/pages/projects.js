@@ -10,7 +10,7 @@ function Projects(props) {
     const [project, setProject] = useState(0)
     return (
     <Layout>
-        <BattleScene name="Project" retrodexLink={`/project/${project}`}>
+        <BattleScene name={`Project ${project + 1}`} retrodexLink={`/project/${project}`}>
             <div className="char-with-options">
                 <div className="arrow arrow-left" onClick={() => setProject((project > 0) ? (project - 1) : projectsData.length - 1 )}></div>
                 <img src={getChar(project)} alt="opponent character" />
