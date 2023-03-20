@@ -1,0 +1,19 @@
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+input, button, textarea {
+    width: 80%;
+}

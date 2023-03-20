@@ -24,6 +24,13 @@
     color: white;
 }
 
+.retrodex-screen button {
+    color: black;
+    font-family: retro;
+    background-color: white;
+    border-radius: 5px;
+}
+
 .retrodex-top {
     display: flex;
     flex-direction: row;
