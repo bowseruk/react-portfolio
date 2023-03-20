@@ -257,7 +257,7 @@
         "description": "A Portfolio website created using HTML and vanilla CSS.",
         "github": "https://github.com/bowseruk/react-portfolio",
         "site": "https://bowseruk.github.io/react-portfolio/",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/bowseruk/react-portfolio/main/public/assests/images/screenshot.png",
         "skills": ["JavaScript", "Node.js"] 
     }
     
