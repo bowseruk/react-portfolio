@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import getChar from '../characters/char-images.js'
 import Layout from '../layout.js'
 import BattleScene from "../battleScene.js";
