@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Layout from '../layout.js'
-import BattleScene from "../battleScene.js";
+import Layout from '../layout.jsx'
+import BattleScene from "../battleScene.jsx";
 import './home.css'
 import opponent from '../characters/retro-home.png'
 

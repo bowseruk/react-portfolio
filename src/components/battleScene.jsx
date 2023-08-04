@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import StatsBar from './StatsBar.js';
+import StatsBar from './StatsBar.jsx';
 import './battleScene.css';
 import playerCharacter from './characters/retro-player.png';
 

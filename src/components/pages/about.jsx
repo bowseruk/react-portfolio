@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Layout from '../layout.js'
-import RetroDex from '../retrodex.js'
+import Layout from '../layout.jsx'
+import RetroDex from '../retrodex.jsx'
 import headshot from '../../images/px_headshot.png'
 
 class About extends Component {

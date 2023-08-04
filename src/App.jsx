@@ -1,9 +1,9 @@
 import './App.css';
-import Home from './components/pages/home.js';
-import About from './components/pages/about.js';
-import Projects from './components/pages/projects.js';
-import Project from './components/pages/project.js';
-import Contact from './components/pages/contact.js';
+import Home from './components/pages/home.jsx';
+import About from './components/pages/about.jsx';
+import Projects from './components/pages/projects.jsx';
+import Project from './components/pages/project.jsx';
+import Contact from './components/pages/contact.jsx';
 import {
   createBrowserRouter,
   RouterProvider,

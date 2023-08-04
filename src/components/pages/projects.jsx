@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import getChar from '../characters/char-images.js'
-import Layout from '../layout.js'
-import BattleScene from "../battleScene.js";
+import getChar from '../characters/char-images.jsx'
+import Layout from '../layout.jsx'
+import BattleScene from "../battleScene.jsx";
 import './projects.css'
 import projectsData from '../../projects.json'
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Layout from "../layout";
+import Layout from "../layout.jsx";
 import './contact.css'
 
 function Contact(props) {

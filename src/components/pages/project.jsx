@@ -1,5 +1,5 @@
-import Layout from '../layout.js'
-import RetroDex from '../retrodex.js'
+import Layout from '../layout.jsx'
+import RetroDex from '../retrodex.jsx'
 import { useParams } from "react-router-dom";
 import projectsData from '../../projects.json'
 
